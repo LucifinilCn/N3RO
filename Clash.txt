@@ -1,4 +1,4 @@
-;Pud-clash rule polished by Lucifinil
+;N3RO-clash rule polished by Lucifinil
 surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
 surge_ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 surge_ruleset=🛑 广告拦截,rules/ConnersHua/Surge/Ruleset/Hijacking.list
@@ -26,5 +26,5 @@ custom_proxy_group=🛰 自动选择-专线`url-test`(IPLC|专线)`http://www.gs
 custom_proxy_group=🛰 均衡模式-专线`load-balance`(IPLC|专线)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=⏩ 直连`select`[]DIRECT
 custom_proxy_group=🚫 屏蔽`select`[]REJECT
-custom_proxy_group=📢 布丁机场专供规则`select`[]DIRECT
+custom_proxy_group=📢 N3RO机场专供规则`select`[]DIRECT
 custom_proxy_group=✏️ 规则更新于20-04-18-beta`select`[]DIRECT
