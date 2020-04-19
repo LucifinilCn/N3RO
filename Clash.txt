@@ -1,11 +1,11 @@
-;N3RO-clash rule polished by Lucifinil
+;N3ro-clash rule polished by sncat
 surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
-surge_ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-surge_ruleset=🛑 广告拦截,rules/ConnersHua/Surge/Ruleset/Hijacking.list
-surge_ruleset=🎥 NETFLIX,rules/ConnersHua/Surge/Ruleset/Media/Netflix.list
-surge_ruleset=📺 流媒体,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/GlobalTV.list
-surge_ruleset=🌏 国内网站,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-surge_ruleset=📲 电报代理,rules/ConnersHua/Surge/Ruleset/Telegram.list
+surge_ruleset=🛑 自定义-广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+surge_ruleset=🛑 自定义-广告拦截,rules/ConnersHua/Surge/Ruleset/Hijacking.list
+surge_ruleset=🎥 分流-NETFLIX,rules/ConnersHua/Surge/Ruleset/Media/Netflix.list
+surge_ruleset=📺 分流-流媒体,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/GlobalTV.list
+surge_ruleset=🌏 自定义-国内网站,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+surge_ruleset=📲 分流-电报代理,rules/ConnersHua/Surge/Ruleset/Telegram.list
 surge_ruleset=🚪 节点选择,rules/ConnersHua/Surge/Ruleset/Global.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
 surge_ruleset=DIRECT,rules/NobyDa/Surge/Download.list
@@ -14,17 +14,17 @@ surge_ruleset=🐟 自定义-漏网之鱼,[]FINAL
 
 ;GPSET
 custom_proxy_group=🚪 节点选择`select`[]✈️ 自动选择-中继`[]✈️ 均衡模式-中继`[]🛰 自动选择-专线`[]🛰 均衡模式-专线`[]⏩ 直连`select`.*
-custom_proxy_group=📺 流媒体`select`[]🚪 节点选择`[]✈️ 自动选择-中继`(中继)`[]⏩ 直连
-custom_proxy_group=🎥 NETFLIX`select`[]🚪 节点选择`[]✈️ 自动选择-中继`(中继)`[]⏩ 直连
-custom_proxy_group=📲 电报代理`select`[]🚪 节点选择`[]🛰 自动选择-专线`(新加坡)`[]⏩ 直连
-custom_proxy_group=🛑 广告拦截`select`[]🚫 屏蔽`[]⏩ 直连
-custom_proxy_group=🌏 国内网站`select`[]⏩ 直连`[]🚪 节点选择
-custom_proxy_group=🐟 漏网之鱼`select`[]🚪 节点选择`[]✈️ 自动选择-中继`[]✈️ 均衡模式-中继`[]⏩ 直连
+custom_proxy_group=📺 分流-流媒体`select`[]🚪 节点选择`[]✈️ 自动选择-中继`(中继)`[]⏩ 直连
+custom_proxy_group=🎥 分流-NETFLIX`select`[]🚪 节点选择`[]✈️ 自动选择-中继`(中继)`[]⏩ 直连
+custom_proxy_group=📲 分流-电报代理`select`[]🚪 节点选择`[]🛰 自动选择-专线`(新加坡)`[]⏩ 直连
+custom_proxy_group=🛑 自定义-广告拦截`select`[]🚫 屏蔽`[]⏩ 直连
+custom_proxy_group=🌏 自定义-国内网站`select`[]⏩ 直连`[]🚪 节点选择
+custom_proxy_group=🐟 自定义-漏网之鱼`select`[]🚪 节点选择`[]✈️ 自动选择-中继`[]✈️ 均衡模式-中继`[]⏩ 直连
 custom_proxy_group=✈️ 自动选择-中继`url-test`(中继)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=✈️ 均衡模式-中继`load-balance`(中继)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=🛰 自动选择-专线`url-test`(IPLC|专线)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=🛰 均衡模式-专线`load-balance`(IPLC|专线)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=⏩ 直连`select`[]DIRECT
 custom_proxy_group=🚫 屏蔽`select`[]REJECT
-custom_proxy_group=📢 N3RO机场专供规则`select`[]DIRECT
-custom_proxy_group=✏️ 规则更新于20-04-18-beta`select`[]DIRECT
+custom_proxy_group=📢 N3RO机场专供规则-bug请向群组反馈`select`[]DIRECT
+custom_proxy_group=✏️ 规则更新于20-03-13-beta`select`[]DIRECT
